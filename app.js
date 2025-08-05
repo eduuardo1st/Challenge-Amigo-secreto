@@ -1,7 +1,13 @@
 let amigos = [];
+let amigoSorteado = document.getElementById('resultado');
 
 function adicionarAmigo()
 {
+    if (amigoSorteado != null)
+    {
+        amigoSorteado.innerHTML = '';
+    }
+
     let amigo = document.querySelector('input').value;
 
     if(amigo == '')
@@ -41,6 +47,13 @@ function sortearAmigo()
     }
 
     let indiceAleatorio = Math.floor(Math.random() * amigos.length);
-    let amigoSorteado = document.getElementById('resultado');
     amigoSorteado.innerHTML = amigos[indiceAleatorio];
+    limparLista();
+}
+
+function limparLista()
+{
+    amigos = [];
+    document.querySelector('input').value = '';
+    atualizarLista();
 }
