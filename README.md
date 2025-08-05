@@ -21,6 +21,9 @@ Este projeto é uma aplicação web interativa e intuitiva para realizar sorteio
 ## Como Usar
 
 1. **Acesse a Aplicação:** Clique no link para acessar a aplicação online: [Amigo Secreto Online](https://challenge-amigo-secreto-ashy-eight.vercel.app/)
+
+![Imagem da aplicacao](assets/TelaAplicacao.png)
+
 2. **Adicione os Nomes:** No campo "Digite um nome", insira o nome de cada participante e clique em "Adicionar".
 3. **Realize o Sorteio:** Após adicionar todos os nomes, clique no botão "Sortear amigo".
 4. **Descubra o Amigo Secreto:** O nome do amigo sorteado será exibido na tela.
