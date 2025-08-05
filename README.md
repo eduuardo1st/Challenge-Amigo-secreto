@@ -50,7 +50,7 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ## Autor
 
-Eduardo Gonçalves de Mesquita
+Eduardo Gonçalves
 - eduardouc388@gmail.com
 
 
